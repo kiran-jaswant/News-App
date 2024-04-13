@@ -1,0 +1,37 @@
+.article-img{
+    height: 250px;
+    width:400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit:cover;
+}
+
+.news-card{
+    border:2px solid black;
+    margin:20px;
+    border-radius: 5px;
+    padding:20px;
+    box-shadow: 0 0 7px black;
+    width:400px;
+    position: relative;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+.description{
+    text-align: justify;
+}
+.btn-read{
+    text-decoration: none;
+    background-color: black;
+    padding:5px 10px;
+    border:2px solid black;
+    border-radius: 5px;
+    margin:20px;
+    color: azure;
+    position: relative;
+    top: 10px;
+    left:7px;
+}
